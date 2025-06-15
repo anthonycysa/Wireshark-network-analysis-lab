@@ -1,31 +1,45 @@
-# 📡 Wireshark Network Traffic Analysis Lab
+# 🧪 Wireshark Network Analysis Lab
 
-This project simulates real-world network traffic scenarios and provides detailed walkthroughs of how to analyze them using Wireshark.
+This lab uses Wireshark to analyze real-world network traffic, identify suspicious activity, and build skills for threat detection, packet analysis, and incident investigation.
 
-## 🎯 Focus Areas
-- Analyzing and filtering network traffic (HTTP, DNS, FTP)
-- Detecting anomalies and suspicious activity
-- Building investigation reports from `.pcap` captures
+## 📊 Features
 
-## 🧰 Tools Used
-- Wireshark
-- Custom `.pcapng` captures
-- Common Wireshark filters
+- Capture and analyze TCP, UDP, DNS, HTTP, FTP, and SMB traffic
+- Identify suspicious or malicious patterns (e.g. C2, exfiltration, tunneling)
+- Learn hands-on how attackers use the network and how defenders can respond
+- Practice with .pcap files and filters to detect key behaviors
 
-## 📂 Project Structure
-| Folder | Description |
-|--------|-------------|
-| `captures/` | Simulated network captures (e.g. FTP, DNS, HTTP) |
-| `analysis/` | Walkthroughs of how to analyze each capture |
-| `screenshots/` | Supporting images from Wireshark |
-| `docs/` | Getting started guide and filter tips |
-
-> This project is designed for SOC Analyst and Network Security roles.
+---
 
 ## 🛡️ Security Framework Mapping
 
-<img src="framework_mapping_diagram.png" alt="Framework Mapping Diagram" width="500"/>
+This project is aligned with industry frameworks to enhance relevance for SOC Analyst and Threat Detection roles.
+
+### 📌 Diagram Overview
+
+<img src="framework_mapping_diagram.png" alt="Framework Mapping Diagram" width="600"/>
+
+### 🔗 Framework Files
 
 - [MITRE ATT&CK Mapping](./MITRE_ATT&CK_Mapping.md)
 - [NIST Cybersecurity Framework](./NIST_CSF_Mapping.md)
 - [PCI DSS Mapping](./PCI_DSS_Mapping.md)
+
+---
+
+## 🧠 Learning Objectives
+
+- Understand how common MITRE ATT&CK techniques appear in packet captures
+- Apply network forensics to map detections to NIST CSF and PCI DSS
+- Build confidence using Wireshark for real-world security analysis
+
+---
+
+## 📂 Structure
+---
+
+## 🔧 Tools Used
+
+- **Wireshark** – network protocol analyzer
+- **ATT&CK Navigator** – for mapping techniques
+- **Markdown** – for documentation
