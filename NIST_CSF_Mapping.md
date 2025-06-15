@@ -10,4 +10,4 @@ This file maps lab exercises to the five core NIST CSF functions: Identify, Prot
 | Identify | Asset Management (ID.AM) | Mapping traffic to internal hosts | Identifying IPs, hostnames, MAC addresses |
 | Protect | Awareness and Training (PR.AT) | Hands-on Wireshark use | Builds analyst skills in protocol and attack recognition |
 
-🎯 **Value**: Your lab shows how continuous monitoring and packet analysis aligns with NIST best practices.
+🎯 Shows continuous monitoring and packet analysis aligns with NIST best practices.
