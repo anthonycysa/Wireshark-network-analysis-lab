@@ -15,8 +15,6 @@ This lab uses Wireshark to analyze real-world network traffic, identify suspicio
 
 This project is aligned with industry frameworks to enhance relevance for SOC Analyst and Threat Detection roles.
 
-<img src="https://raw.githubusercontent.com/anthonycysa/wireshark-network-analysis-lab/main/framework_mapping_diagram.png" alt="Framework Mapping Diagram" width="600"/>
-
 
 ### 🔗 Framework Files
 
