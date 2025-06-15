@@ -21,3 +21,11 @@ This project simulates real-world network traffic scenarios and provides detaile
 | `docs/` | Getting started guide and filter tips |
 
 > This project is designed for SOC Analyst and Network Security roles.
+
+## 🛡️ Security Framework Mapping
+
+<img src="framework_mapping_diagram.png" alt="Framework Mapping Diagram" width="500"/>
+
+- [MITRE ATT&CK Mapping](./MITRE_ATT&CK_Mapping.md)
+- [NIST Cybersecurity Framework](./NIST_CSF_Mapping.md)
+- [PCI DSS Mapping](./PCI_DSS_Mapping.md)
