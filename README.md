@@ -29,22 +29,20 @@ This project showcases fundamental packet analysis skills using **Wireshark** in
 Captured traffic included:
 - **DNS Lookup:** `ploit.com` query followed by DNS response
 - **ICMP Echo Request:** Outbound ping from internal IP to external IP
-
-
----
-
-
 ### 🦈 Wireshark Launch
 
-This screenshot shows the Wireshark GUI successfully launched on the TryHackMe AttackBox, with available network interfaces displayed and ready for packet capture.
-![Wireshark Launch](wireshark-launch.jpg)
+This screenshot shows the Wireshark GUI successfully launched on the TryHackMe AttackBox.
+
+![Wireshark Launch](https://raw.githubusercontent.com/anthonycysa/Wireshark-network-analysis-lab/main/wireshark-launch.jpg)
 
 ---
 
 ### 🧠 Sample DNS/ICMP Packet Capture
 
 This screenshot shows DNS queries and ICMP echo requests captured and analyzed in Wireshark.
-![Sample DNS/ICMP Capture](sample-dns-icmp.jpg)
+
+![Sample DNS/ICMP Capture](https://raw.githubusercontent.com/anthonycysa/Wireshark-network-analysis-lab/main/sample-dns-icmp.jpg)
+
 # 📄 sample-analysis.md
 
 ## 🔍 What Was Analyzed
