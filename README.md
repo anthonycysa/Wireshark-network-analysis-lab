@@ -44,6 +44,16 @@ This screenshot shows the Wireshark GUI successfully launched on the TryHackMe A
 
 | Packet Analysis |
 ![Sample DNS/ICMP Capture](sample-dns-icmp.jpg)
+# 📄 sample-analysis.md
+
+## 🔍 What Was Analyzed
+In this lab, I used Wireshark to open `.pcap` files and analyze basic packet data, including:
+
+- **DNS traffic** between internal hosts and name servers  
+- **ICMP Echo Request** (ping) packets to external IPs  
+- Identified protocols, source/destination IPs, and packet metadata  
+- Practiced filtering and dissecting traffic layers in the Wireshark GUI
+
 
 ---
 
