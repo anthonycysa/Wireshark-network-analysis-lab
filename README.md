@@ -37,7 +37,6 @@ Captured traffic included:
 ### 🦈 Wireshark Launch
 
 This screenshot shows the Wireshark GUI successfully launched on the TryHackMe AttackBox, with available network interfaces displayed and ready for packet capture.
-
 ![Wireshark Launch](wireshark-launch.jpg)
 
 ---
@@ -45,7 +44,6 @@ This screenshot shows the Wireshark GUI successfully launched on the TryHackMe A
 ### 🧠 Sample DNS/ICMP Packet Capture
 
 This screenshot shows DNS queries and ICMP echo requests captured and analyzed in Wireshark.
-
 ![Sample DNS/ICMP Capture](sample-dns-icmp.jpg)
 # 📄 sample-analysis.md
 
