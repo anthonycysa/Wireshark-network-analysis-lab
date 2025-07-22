@@ -30,8 +30,6 @@ Captured traffic included:
 - **DNS Lookup:** `ploit.com` query followed by DNS response
 - **ICMP Echo Request:** Outbound ping from internal IP to external IP
 
-For the full breakdown of packets and screenshots:
-👉 [View `sample-analysis.md`](./sample-analysis.md)
 
 ---
 
@@ -39,10 +37,18 @@ For the full breakdown of packets and screenshots:
 ### 🦈 Wireshark Launch
 
 This screenshot shows the Wireshark GUI successfully launched on the TryHackMe AttackBox, with available network interfaces displayed and ready for packet capture.
+### 🟦 Wireshark Launch
+
+This screenshot shows the Wireshark GUI successfully launched on the TryHackMe AttackBox, with available network interfaces displayed and ready for packet capture.
 
 ![Wireshark Launch](wireshark-launch.jpg)
 
-| Packet Analysis |
+---
+
+### 🧠 Sample DNS/ICMP Packet Capture
+
+This screenshot shows DNS queries and ICMP echo requests captured and analyzed in Wireshark.
+
 ![Sample DNS/ICMP Capture](sample-dns-icmp.jpg)
 # 📄 sample-analysis.md
 
