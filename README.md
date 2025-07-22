@@ -1,42 +1,73 @@
-# 🧪 Wireshark Network Analysis Lab
 
-This lab uses Wireshark to analyze real-world network traffic, identify suspicious activity, and build skills for threat detection, packet analysis, and incident investigation.
+# 🦈 Wireshark Network Analysis Lab
 
-## 📊 Features
-
-- Capture and analyze TCP, UDP, DNS, HTTP, FTP, and SMB traffic
-- Identify suspicious or malicious patterns (e.g. C2, exfiltration, tunneling)
-- Learn hands-on how attackers use the network and how defenders can respond
-- Practice with .pcap files and filters to detect key behaviors
+This project showcases fundamental packet analysis skills using **Wireshark** in a hands-on lab environment. It was built using the **TryHackMe Wireshark 101** room and is designed to simulate real-world network forensics scenarios a SOC Analyst might face.
 
 ---
 
-## 🛡️ Security Framework Mapping
+## 🛠 Tools Used
 
-This project is aligned with industry frameworks to enhance relevance for SOC Analyst and Threat Detection roles.
-
-
-### 🔗 Framework Files
-
-- [MITRE ATT&CK Mapping](./MITRE_ATT&CK_Mapping.md)
-- [NIST Cybersecurity Framework](./NIST_CSF_Mapping.md)
-- [PCI DSS Mapping](./PCI_DSS_Mapping.md)
+- **Wireshark 4.4.0**
+- **TryHackMe AttackBox**
+- **Sample `.pcap` files** (Metasploit & TryHackMe)
+- Linux (Kali environment via browser)
 
 ---
 
-## 🧠 Learning Objectives
+## 🎯 Learning Objectives
 
-- Understand how common MITRE ATT&CK techniques appear in packet captures
-- Apply network forensics to map detections to NIST CSF and PCI DSS
-- Build confidence using Wireshark for real-world security analysis
+- Launch and navigate Wireshark in a secure VM environment
+- Capture and analyze DNS queries and ICMP (ping) traffic
+- Understand packet structure (Ethernet, IP, ARP, etc.)
+- Apply filters and dissect protocol layers
+- Build job-ready network forensics fundamentals
 
 ---
 
-## 📂 Structure
+## 🧪 PCAP Traffic Analysis
+
+Captured traffic included:
+- **DNS Lookup:** `ploit.com` query followed by DNS response
+- **ICMP Echo Request:** Outbound ping from internal IP to external IP
+
+For the full breakdown of packets and screenshots:
+👉 [View `sample-analysis.md`](./sample-analysis.md)
+
 ---
 
-## 🔧 Tools Used
+## 📸 Screenshots
 
-- **Wireshark** – network protocol analyzer
-- **ATT&CK Navigator** – for mapping techniques
-- **Markdown** – for documentation
+| Wireshark Launch | Packet Analysis |
+|------------------|-----------------|
+| ![Launch](./screenshots/wireshark-launch.jpg) | ![Analysis](./screenshots/sample-dns-icmp.jpg) |
+
+---
+
+## 🛡 Security Framework Mapping
+
+This project has been aligned with relevant security frameworks:
+
+- 🔗 [MITRE ATT&CK](./mitre-attack.md)
+- 🔗 [NIST Cybersecurity Framework](./nist-csf.md)
+- 🔗 [PCI DSS](./pci-dss.md)
+
+---
+
+## 💼 Why This Project Matters
+
+This project demonstrates my ability to:
+- Work with raw packet data using Wireshark
+- Identify and explain common protocols and behaviors
+- Build real-world lab environments for continuous learning
+
+It reflects core SOC Analyst skills such as network visibility, detection, and documentation.
+
+---
+
+## ✅ Next Steps
+
+- Continue analyzing new `.pcap` files from hands-on labs
+- Enhance analysis depth with HTTP, FTP, and suspicious traffic patterns
+- Apply packet investigation techniques to detection engineering
+
+---
