@@ -35,7 +35,12 @@ For the full breakdown of packets and screenshots:
 
 ---
 
-## 📸 Screenshots
+
+### 🦈 Wireshark Launch
+
+This screenshot shows the Wireshark GUI successfully launched on the TryHackMe AttackBox, with available network interfaces displayed and ready for packet capture.
+
+![Wireshark Launch](wireshark-launch.jpg)
 
 | Packet Analysis |
 ![Sample DNS/ICMP Capture](sample-dns-icmp.jpg)
