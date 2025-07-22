@@ -37,9 +37,8 @@ For the full breakdown of packets and screenshots:
 
 ## 📸 Screenshots
 
-| Wireshark Launch | Packet Analysis |
-|------------------|-----------------|
-| ![Launch](./screenshots/wireshark-launch.jpg) | ![Analysis](./screenshots/sample-dns-icmp.jpg) |
+| Packet Analysis |
+![Sample DNS/ICMP Capture](sample-dns-icmp.jpg)
 
 ---
 
